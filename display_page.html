@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithm Comparison</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Machine Learning Model Comparison</h1>
+        <p>A comparison of Logistic Regression, Decision Tree, and Naive Bayes on various performance metrics.</p>
+    </header>
+
+    <main>
+        <section class="table-section">
+            <h2>Algorithm Performance Metrics</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Algorithm</th>
+                        <th>Accuracy</th>
+                        <th>Precision</th>
+                        <th>Recall</th>
+                        <th>F1 Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Logistic Regression</td>
+                        <td>0.6009759641198952</td>
+                        <td>0.5554752053030426</td>
+                        <td>0.6009759641198952</td>
+                        <td>0.5459865504723973</td>
+                    </tr>
+                    <tr>
+                        <td>Decision Tree</td>
+                        <td>0.8461198319699315</td>
+                        <td>0.8429270596921878</td>
+                        <td>0.8461198319699315</td>
+                        <td>0.8420654514294496</td>
+                    </tr>
+                    <tr>
+                        <td>Naive Bayes</td>
+                        <td>0.5649537285619531</td>
+                        <td>0.5536851988701811</td>
+                        <td>0.5649537285619531</td>
+                        <td>0.5246674402246875</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="chart-section">
+            <h2>Performance Metrics Comparison Chart</h2>
+            <canvas id="algorithmComparisonChart" width="600" height="400"></canvas>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; WDM_S24 remnd_335439 -rima_324498 -Sahar_332427 -ahmad_332857 -reem_335512 | Machine Learning Model Comparison</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
